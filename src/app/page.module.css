@@ -6,6 +6,16 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 .description {
   display: inherit;
