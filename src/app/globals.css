@@ -13,8 +13,19 @@
 
 
 
+  .container {
+    align-items: center;
+     
+    text-align: center;
+}
 
-
+button.btn {
+  padding: 10px 20px;
+  margin-top: 14%;
+  background: orangered;
+  color: white;
+  cursor: pointer;
+}
 
 
 

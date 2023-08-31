@@ -1,13 +1,29 @@
-  'Use Client';
-
-  1 reference 
+  'use client';
+ 
+   
 
   export default function Home(){
     const handleSet=()=>{
-      0 references 
+       
 
       (async () =>{
-        await fetch('http://localhost:3000/api/')
+        await fetch('http://localhost:3000/api/Set-cookie')
       }) ();
     }
-  }
+
+
+  return(
+              
+    <div className="container">
+      <p>Home Page</p>
+      <button className="btn" onClick={handleSet}>
+      Set-Cookie</button>
+
+    </div>
+
+
+  )
+
+}
+  
+
